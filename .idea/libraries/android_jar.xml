@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/~/Downloads/adt-bundle-mac-x86_64-20140321/platforms/android-19/android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
