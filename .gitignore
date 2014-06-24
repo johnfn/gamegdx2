@@ -4,3 +4,4 @@ target/
 src_managed/
 project/boot/
 project/plugins/project
+.DS_Store
