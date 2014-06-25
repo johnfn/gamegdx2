@@ -26,15 +26,14 @@
       <sourceFolder url="file://$MODULE_DIR$/../../android/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../android/target/scala-2.10/resource_managed/test" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../android/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../../android" />
       <excludeFolder url="file://$MODULE_DIR$/../../android/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="common" exported="" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
     <orderEntry type="library" name="SBT: com.badlogicgames.gdx:gdx:1.2.0" level="project" />
     <orderEntry type="library" name="SBT: com.badlogicgames.gdx:gdx-backend-android:1.2.0" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
     <orderEntry type="module-library">
       <library name="SBT: unmanaged-jars">
         <CLASSES>

@@ -76,7 +76,65 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.plist/dd-plist/jars/dd-plist-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/srcs/compiler-ivy-integration-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_10_1/srcs/precompiled-2_10_1-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.robovm/robovm-libimobiledevice/srcs/robovm-libimobiledevice-0.0.9-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.robovm/robovm-compiler/srcs/robovm-compiler-0.0.9-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/launcher-interface/srcs/launcher-interface-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/ivy/srcs/ivy-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/logging/srcs/logging-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/collections/srcs/collections-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.proguard/proguard-base/srcs/proguard-base-4.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/stax/stax/srcs/stax-1.2.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/classfile/srcs/classfile-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/process/srcs/process-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tasks/srcs/tasks-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/incremental-compiler/srcs/incremental-compiler-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.49-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/compiler-integration/srcs/compiler-integration-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/compile/srcs/compile-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/jline/jline/srcs/jline-1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/actions/srcs/actions-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.plist/dd-plist/srcs/dd-plist-1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/cache/srcs/cache-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.10.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/testing/srcs/testing-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.9.0/srcs/sbinary_2.9.0-0.4.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/api/srcs/api-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.simpleframework/simple-xml/srcs/simple-xml-2.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.0.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.robovm/robovm-llvm/srcs/robovm-llvm-0.0.9-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.9.2/sbt_0.12/com.github.mpeltonen/sbt-idea/srcs/sbt-idea-1.5.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/command/srcs/command-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/io/srcs/io-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.9.2/sbt_0.12/org.scala-sbt/sbt-android/srcs/sbt-android-0.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.json/json/srcs/json-20131018-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/task-system/srcs/task-system-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.jcraft/jsch/srcs/jsch-0.1.46-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/interface/srcs/interface-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.49-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/classpath/srcs/classpath-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.0.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ivy/ivy/srcs/ivy-2.3.0-rc1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.9.2/sbt_0.12/com.hagerbot/sbt-robovm/srcs/sbt-robovm-0.1.0-SNAPSHOT-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.android.tools/ddmlib/srcs/ddmlib-r10-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/persist/srcs/persist-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.9.2/sbt_0.12/org.jetbrains/sbt-structure/srcs/sbt-structure-2.4.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/completion/srcs/completion-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/srcs/precompiled-2_9_3-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/main/srcs/main-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/control/srcs/control-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/run/srcs/run-0.12.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-exec/srcs/commons-exec-1.0.1-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

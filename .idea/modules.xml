@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop-build.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios.iml" filepath="$PROJECT_DIR$/.idea/modules/ios.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ios-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/project/.idea/modules/project.iml" filepath="$PROJECT_DIR$/android/project/.idea/modules/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/project/.idea/modules/project-build.iml" filepath="$PROJECT_DIR$/android/project/.idea/modules/project-build.iml" />
     </modules>
   </component>
 </project>

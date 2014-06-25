@@ -4,6 +4,20 @@
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android" />
+            <option value="$PROJECT_DIR$/android/project" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/project" />
+            <option value="$PROJECT_DIR$/desktop" />
+            <option value="$PROJECT_DIR$/desktop/project" />
+            <option value="$PROJECT_DIR$/ios" />
+            <option value="$PROJECT_DIR$/ios/project" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
         <option name="useAutoImport" value="true" />
       </SbtProjectSettings>
     </option>
