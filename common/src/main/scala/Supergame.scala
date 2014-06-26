@@ -15,7 +15,7 @@ import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer
 import com.badlogic.gdx.math.{Intersector, Rectangle}
 import scala.collection.JavaConverters._
 
-class Entity(textureFile:String) extends Rectangle {
+class Entity(textureFile:String) extends Rectangle(0, 0, 25, 25) {
   var texture:Texture = new Texture(textureFile)
 }
 
@@ -47,21 +47,23 @@ class Tilemap(mapName:String) {
   var map:TiledMap = new TmxMapLoader().load(mapName)
   var mapRenderer:TiledMapRenderer = new OrthogonalTiledMapRenderer(map)
 
+  def layerVector():Vector[MapLayer] = map.getLayers().iterator().asScala.to[Vector]
+  val layers:Map[String, MapLayer] = layerVector().map((layer) => (layer.getName(), layer)).toMap
+  val objects:Map[String, Vector[Rectangle]] = layers
+    .mapValues( (l) => (l.getObjects().iterator().asScala.to[Vector]))
+    .mapValues( (objectlist) => objectlist.map((x) => x.asInstanceOf[RectangleMapObject].getRectangle()))
+
   def render(camera:OrthographicCamera) {
     mapRenderer.setView(camera)
     mapRenderer.render()
   }
 
-  def layers():Vector[MapLayer] = {
-    Vector() ++ map.getLayers().iterator().asScala
-  }
-
   def collideWith(entity:Entity):Boolean = {
-    val objects = layers()
-      .map((layer) => Vector() ++ layer.getObjects.asScala)
-      .map((objects) => objects.map((obj) => obj.asInstanceOf[RectangleMapObject].getRectangle())).flatten
+    val allObjects = objects.values.flatten
 
-    objects.map((rect) => Intersector.overlaps(rect, entity)).contains(true)
+    if (allObjects.toVector.length > 0) println(allObjects.toVector(0))
+
+    allObjects.map((rect) => Intersector.overlaps(rect, entity)).toVector.contains(true)
   }
 }
 
@@ -92,6 +94,7 @@ class Supergame extends Game {
 
     player.update()
 
+    batch.setProjectionMatrix(camera.combined)
     batch.begin()
     player.render(batch)
     batch.end()
