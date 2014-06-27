@@ -92,6 +92,8 @@ class Supergame extends Game {
     Gdx.gl.glClearColor(1, 1, 1, 1)
     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
 
+    camera.position.set(player.x, player.y, 0)
+    
     player.update()
 
     batch.setProjectionMatrix(camera.combined)
@@ -101,6 +103,7 @@ class Supergame extends Game {
 
     camera.update()
     tilemap.render(camera)
+
 
     println(tilemap.collideWith(player))
   }
