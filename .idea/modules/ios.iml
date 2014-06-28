@@ -38,6 +38,9 @@
     <orderEntry type="library" name="SBT: org.robovm:robovm-cocoatouch:0.0.13" level="project" />
     <orderEntry type="library" name="SBT: org.robovm:robovm-objc:0.0.13" level="project" />
     <orderEntry type="library" name="SBT: org.robovm:robovm-rt:0.0.13" level="project" />
+    <orderEntry type="library" name="gdx-box2d-gwt1" level="project" />
+    <orderEntry type="library" name="gdx-box2d-natives" level="project" />
+    <orderEntry type="library" name="gdx-box2d" level="project" />
   </component>
 </module>
 

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gdx-box2d-gwt">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/libgdx-1.2.0/extensions/gdx-box2d/gdx-box2d-gwt.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/libgdx-1.2.0/extensions/gdx-box2d/gdx-box2d.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

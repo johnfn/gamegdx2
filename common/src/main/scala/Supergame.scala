@@ -13,7 +13,10 @@ import com.badlogic.gdx.maps.{MapLayers, MapLayer}
 import com.badlogic.gdx.maps.tiled.{TiledMapTileLayer, TiledMap, TiledMapRenderer, TmxMapLoader}
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer
 import com.badlogic.gdx.math.{Intersector, Rectangle}
+import com.badlogic.gdx.physics.box2d._
 import scala.collection.JavaConverters._
+
+import com.badlogic.gdx.physics.box2d
 
 class Entity(textureFile:String) extends Rectangle(0, 0, 25, 25) {
   var texture:Texture = new Texture(textureFile)
@@ -74,6 +77,8 @@ class Supergame extends Game {
   var player:Player = null
   var tilemap:Tilemap = null
 
+  var world:World = new World();
+
   override def create() {
     val width:Float = Gdx.graphics.getWidth.asInstanceOf[Float]
     val height:Float = Gdx.graphics.getHeight.asInstanceOf[Float]
@@ -93,7 +98,7 @@ class Supergame extends Game {
     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
 
     camera.position.set(player.x, player.y, 0)
-    
+
     player.update()
 
     batch.setProjectionMatrix(camera.combined)

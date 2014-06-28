@@ -43,6 +43,9 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="gdx-box2d-gwt1" level="project" />
+    <orderEntry type="library" name="gdx-box2d-natives" level="project" />
+    <orderEntry type="library" name="gdx-box2d" level="project" />
   </component>
 </module>
 
